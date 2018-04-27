@@ -1212,7 +1212,7 @@
 			<key>name</key>
 			<string>C: Meta Preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c.include, meta.preprocessor.macro.c</string>
+			<string>meta.preprocessor.c.include, meta.preprocessor.macro</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
