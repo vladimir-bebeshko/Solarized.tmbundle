@@ -134,13 +134,26 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Storage Type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class</string>
+			<string>entity.name.class, entity.name.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#268bd2</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -841,19 +854,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Class Name</string>
-			<key>scope</key>
-			<string>entity.name.type.class.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#b58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Ruby: Keyword</string>
 			<key>scope</key>
 			<string>keyword.control.ruby</string>
@@ -1284,19 +1284,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#2aa198</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>C: Storage Type</string>
-			<key>scope</key>
-			<string>storage.type.c</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
