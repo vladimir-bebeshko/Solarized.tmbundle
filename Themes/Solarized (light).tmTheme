@@ -808,6 +808,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby: Variable `self`, Rust: Variable `self`</string>
+			<key>scope</key>
+			<string>variable.language.self.ruby, variable.language.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#859900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby: Function</string>
 			<key>scope</key>
 			<string>entity.name.function.ruby</string>
