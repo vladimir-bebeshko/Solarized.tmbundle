@@ -989,7 +989,7 @@
 			<key>name</key>
 			<string>PHP: Quoted Single</string>
 			<key>scope</key>
-			<string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
+			<string>punctuation.definition.string.begin.php, punctuation.definition.string.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
