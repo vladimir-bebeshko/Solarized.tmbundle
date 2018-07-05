@@ -614,7 +614,7 @@
 			<key>name</key>
 			<string>HTML: Doctype</string>
 			<key>scope</key>
-			<string>entity.name.tag.doctype.html, meta.tag.sgml.html, string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+			<string>meta.tag.metadata.doctype entity.name.tag, meta.tag.metadata.doctype, meta.tag.metadata.doctype string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -640,7 +640,7 @@
 			<key>name</key>
 			<string>HTML: Script</string>
 			<key>scope</key>
-			<string>entity.name.tag.script.html</string>
+			<string>meta.tag.metadata.script entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -677,7 +677,7 @@
 			<key>name</key>
 			<string>HTML: =</string>
 			<key>scope</key>
-			<string>text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, punctuation.separator.key-value.html</string>
+			<string>text.html meta.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -701,7 +701,7 @@
 			<key>name</key>
 			<string>HTML: "</string>
 			<key>scope</key>
-			<string>text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html </string>
+			<string>text.html meta.tag string punctuation.definition.string.*.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -714,7 +714,7 @@
 			<key>name</key>
 			<string>HTML: &lt;tag&gt;</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html</string>
+			<string>text.html meta.tag entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
