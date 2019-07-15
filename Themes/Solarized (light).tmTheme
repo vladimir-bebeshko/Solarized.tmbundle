@@ -191,6 +191,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Rust attributes</string>
+			<key>scope</key>
+			<string>meta.attribute.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c71c4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
 			<string>constant.language, meta.preprocessor</string>
