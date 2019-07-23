@@ -869,7 +869,7 @@
 			<key>name</key>
 			<string>Ruby: Constant</string>
 			<key>scope</key>
-			<string>constant.language.ruby, constant.numeric.ruby</string>
+			<string>constant.language.ruby, constant.numeric.ruby, constant.language.boolean</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
