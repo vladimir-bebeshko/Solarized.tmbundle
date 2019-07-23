@@ -799,7 +799,7 @@
 			<key>name</key>
 			<string>Ruby: Variable `self`, Rust: Variable `self`</string>
 			<key>scope</key>
-			<string>variable.language.self.ruby, variable.language.rust</string>
+			<string>variable.language.self</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
