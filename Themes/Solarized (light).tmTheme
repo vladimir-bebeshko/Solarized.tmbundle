@@ -1175,9 +1175,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Rust attributes</string>
+			<string>Rust attributes and macros</string>
 			<key>scope</key>
-			<string>meta.attribute</string>
+			<string>meta.attribute, entity.name.function.macro</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
