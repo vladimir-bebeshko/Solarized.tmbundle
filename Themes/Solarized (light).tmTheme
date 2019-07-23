@@ -856,9 +856,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Constant</string>
+			<string>Ruby &amp; Rust Boolean</string>
 			<key>scope</key>
-			<string>constant.language.ruby, constant.numeric.ruby, constant.language.boolean</string>
+			<string>constant.language.ruby, constant.language.boolean.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Literal Byte</string>
+			<key>scope</key>
+			<string>constant.numeric.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
