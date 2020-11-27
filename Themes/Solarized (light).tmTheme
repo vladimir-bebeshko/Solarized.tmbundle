@@ -115,10 +115,8 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#073642</string>
+				<string>#cb4b16</string>
 			</dict>
 		</dict>
 		<dict>
