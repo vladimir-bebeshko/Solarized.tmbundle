@@ -66,17 +66,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>StringNumber</string>
-			<key>scope</key>
-			<string>string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#586e75</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Regexp</string>
 			<key>scope</key>
 			<string>string.regexp</string>
@@ -126,21 +115,32 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#cb4b16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage Type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#859900</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class</string>
+			<string>entity.name.class, entity.name.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#268bd2</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -246,7 +246,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#93a1a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -298,7 +298,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#859900</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -338,17 +338,6 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Quoted String</string>
-			<key>scope</key>
-			<string>string.quoted.double, string.quoted.single</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2aa198</string>
-			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -553,17 +542,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#268bd2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Numeric Constant</string>
-			<key>scope</key>
-			<string>constant.numeric.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2aa198</string>
 			</dict>
 		</dict>
 		<dict>
@@ -806,6 +784,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby: Variable `self`, Rust: Variable `self`</string>
+			<key>scope</key>
+			<string>variable.language.self</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#859900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby: Function</string>
 			<key>scope</key>
 			<string>entity.name.function.ruby</string>
@@ -841,19 +830,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Class Name</string>
-			<key>scope</key>
-			<string>entity.name.type.class.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#b58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Ruby: Keyword</string>
 			<key>scope</key>
 			<string>keyword.control.ruby</string>
@@ -863,19 +839,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#859900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby: Support Class</string>
-			<key>scope</key>
-			<string>support.class.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -891,9 +854,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Constant</string>
+			<string>Ruby &amp; Rust Boolean</string>
 			<key>scope</key>
-			<string>constant.language.ruby, constant.numeric.ruby</string>
+			<string>constant.language.ruby, constant.language.boolean.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Literal Byte</string>
+			<key>scope</key>
+			<string>constant.numeric.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -989,18 +963,7 @@
 			<key>name</key>
 			<string>PHP: Quoted Single</string>
 			<key>scope</key>
-			<string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#839496</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Class Names</string>
-			<key>scope</key>
-			<string>support.class.php</string>
+			<string>punctuation.definition.string.begin.php, punctuation.definition.string.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1090,13 +1053,13 @@
 			<key>name</key>
 			<string>PHP: ::</string>
 			<key>scope</key>
-			<string>keyword.operator.class</string>
+			<string>support.class.php, keyword.operator.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1126,17 +1089,6 @@
 			<string>PHP: Class Function</string>
 			<key>settings</key>
 			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Semicolon</string>
-			<key>scope</key>
-			<string>punctuation.terminator.expression.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#839496</string>
-			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1232,22 +1184,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C: constant</string>
+			<string>Rust attributes and macros</string>
 			<key>scope</key>
-			<string>constant.numeric.c</string>
+			<string>meta.attribute, entity.name.function.macro</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#2aa198</string>
+				<string>#6c71c4</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>C: Meta Preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c.include, meta.preprocessor.macro.c</string>
+			<string>meta.preprocessor.c.include, meta.preprocessor.macro</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1323,19 +1273,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C: Storage Type</string>
-			<key>scope</key>
-			<string>storage.type.c</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#b58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>diff: header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
@@ -1392,7 +1329,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#b58900</string>
+				<string>#a57706</string>
 				<key>foreground</key>
 				<string>#e0eddd</string>
 			</dict>
@@ -1912,7 +1849,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1925,7 +1862,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1974,9 +1911,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Quote Block and Punctuation</string>
+			<string>markup.quote.markdown</string>
 			<key>scope</key>
-			<string>markup.quote.markdown, punctuation.definition.blockquote.markdown</string>
+			<string>markup.quote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c71c4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation.definition.blockquote.markdown</string>
+			<key>scope</key>
+			<string>punctuation.definition.blockquote.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1996,59 +1944,46 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Link and Reference URL</string>
+			<string>Markdown: Link URL, Reference</string>
 			<key>scope</key>
-			<string>meta.image.inline.markdown, markup.underline.link.markdown</string>
+			<string>markup.underline.link.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Link Title, Image Description</string>
+			<string>Markdown: Link Title</string>
 			<key>scope</key>
-			<string>string.other.link.title.markdown, string.other.link.description.markdown</string>
+			<string>markup.underline.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#93a1a1</string>
+				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Angle Brakets on Link and Image</string>
+			<string>Markdown: Link Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.link.markdown</string>
+			<string>meta.link.inet.markdown, meta.link.email.lt-gt.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#dc322f</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Parens on Link and Image </string>
+			<string>text plain</string>
 			<key>scope</key>
-			<string>punctuation.definition.metadata.markdown</string>
+			<string>text.plain</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markdown: Square Brakets on Link, Image, and Reference</string>
-			<key>scope</key>
-			<string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.markdown</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#6a8187</string>
 			</dict>
 		</dict>
 		<dict>
