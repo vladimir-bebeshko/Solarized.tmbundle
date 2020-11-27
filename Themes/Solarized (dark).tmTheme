@@ -1341,12 +1341,10 @@
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#b58900</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#E0EDDD</string>
+				<string>#268bd2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1356,8 +1354,6 @@
 			<string>markup.deleted</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#eee8d5</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -1371,8 +1367,6 @@
 			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#eee8d5</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -1386,10 +1380,8 @@
 			<string>markup.inserted</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#eee8d5</string>
 				<key>foreground</key>
-				<string>#219186</string>
+				<string>#859900</string>
 			</dict>
 		</dict>
 		<dict>
